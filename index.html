@@ -3,35 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Website</title>
+    <title>File Download List</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
+            margin: 20px;
         }
         table {
-            margin: auto;
+            width: 100%;
             border-collapse: collapse;
         }
         th, td {
-            border: 1px solid black;
+            border: 1px solid #ddd;
             padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>This is a simple HTML page for <strong>dahuangggg.github.io</strong>.</p>
-
-    <!-- Example Link -->
-    <h2>
-        <a href="https://upfile.live/files/772a2b13">政治打印</a>(Default)
-    </h2>
-    <h2>
-        <a href="http://chat.dahuangggg.me">ChatGPT-API-WebUI</a>(NoProxy)
-    </h2>
+    <h1>File Download List</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>File Name</th>
+                <th>Download Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Add your files here -->
+            <tr>
+                <td>example1.pdf</td>
+                <td><a href="docs/pre2.pdf" download>Download</a></td>
+            </tr>
+            <tr>
+                <td>example2.docx</td>
+                <td><a href="docs/example2.docx" download>Download</a></td>
+            </tr>
+            <tr>
+                <td>example3.png</td>
+                <td><a href="docs/example3.png" download>Download</a></td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
-
-
