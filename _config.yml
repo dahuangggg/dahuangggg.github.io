@@ -1,0 +1,18 @@
+# 基本信息
+title: 我的 GitHub Pages 网站
+description: 这是一个使用 Jekyll 构建的站点
+baseurl: "" # 如果你的站点在子路径下，例如 /blog, 设置为 "/blog"
+url: "https://dahuangggg.github.io" # 你的 GitHub Pages URL
+
+# 主题
+theme: minima # 你选择的 Jekyll 主题
+
+# 作者信息
+author:
+  name: DAHUANGGGG
+  email: dahuangggg@icloud.com
+
+# Markdown 引擎
+markdown: kramdown
+
+
